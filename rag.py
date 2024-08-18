@@ -32,7 +32,7 @@ def add_doc(path):
 
 # add_doc('D:\\Downloads\\Cosmic Encounter.pdf')
 question = 'what do defensive allies get when winning an encounter?'
-model = ChatOpenAI(model='gpt-3.5-turbo', temperature=0)
+model = ChatOpenAI(model='gpt-4o-mini', temperature=0)
 
 res = model.invoke(f'''
     You are given this text: "{question}".
